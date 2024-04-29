@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'your repo link here' // Replace with your actual GitHub repository URL
+                git branch: 'main', url: 'https://github.com/1Arnav2/scripted-pipeline.git' // Replace with your actual GitHub repository URL
             }
         }
 
